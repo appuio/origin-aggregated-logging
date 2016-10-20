@@ -95,3 +95,5 @@ openshift:
       system.admin:
         bypass: ["*"]
       system.admin.*.comment: "Admin user can do anything"
+
+node.data: ${NODE_DATA}
