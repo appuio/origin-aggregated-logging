@@ -97,3 +97,4 @@ openshift:
       system.admin.*.comment: "Admin user can do anything"
 
 node.data: ${NODE_DATA}
+indices.fielddata.cache.size: ${FIELDDATA_SIZE}
